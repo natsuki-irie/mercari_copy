@@ -1,3 +1,58 @@
 // Place all the styles related to the tops controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.search {
+  width: 600px;
+}
+
+#nav-belt {
+  float: left;
+  width: 100%;
+}
+
+.nav-left {
+  float: left;
+  padding-left: 40px;
+}
+
+.nav-center {
+  float: left;
+}
+
+.nav-right {
+  float: left;
+}
+
+
+
+#nav-main {
+  float: left;
+}
+
+.nav-main-left {
+  float: left;
+  padding-left: 40px;
+}
+
+.nav-main-center {
+  float: left;
+  padding-left: 50px;
+}
+
+.amazon-point p {
+  display: inline;
+  font-size: 12px
+}
+
+.main-list ul {
+  display: inline;
+}
+
+.main-list li {
+  list-style: none;
+  float: left;
+  padding-right: 15px;
+  font-size: 13px;
+}

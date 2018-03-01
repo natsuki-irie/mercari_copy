@@ -871,3 +871,578 @@ Started GET "/assets/tops-f6c6ef02137813db1b2df8e2c31983a1.js?body=1" for ::1 at
 
 
 Started GET "/assets/application-67ec727f1c420f5f730ed5e697b6b0ea.js?body=1" for ::1 at 2018-01-10 14:58:16 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 16:40:09 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 95ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/top-539b1b2d248fcacaf845c897cae976a6.css?body=1" for ::1 at 2018-03-01 16:40:09 +0900
+
+
+Started GET "/assets/application-2e9d1cb72084fa4225b20f531bad849f.css?body=1" for ::1 at 2018-03-01 16:40:09 +0900
+
+
+Started GET "/assets/tops-539b1b2d248fcacaf845c897cae976a6.css?body=1" for ::1 at 2018-03-01 16:40:09 +0900
+
+
+Started GET "/assets/jquery-24e9e31ece1989ef3791bcd53ea38cab.js?body=1" for ::1 at 2018-03-01 16:40:09 +0900
+
+
+Started GET "/assets/jquery_ujs-e9c99e4aa7db66a7f23b948d7d043bd8.js?body=1" for ::1 at 2018-03-01 16:40:09 +0900
+
+
+Started GET "/assets/turbolinks-ed0b02fb503803234719b1ec01b9a090.js?body=1" for ::1 at 2018-03-01 16:40:09 +0900
+
+
+Started GET "/assets/top-f6c6ef02137813db1b2df8e2c31983a1.js?body=1" for ::1 at 2018-03-01 16:40:09 +0900
+
+
+Started GET "/assets/tops-f6c6ef02137813db1b2df8e2c31983a1.js?body=1" for ::1 at 2018-03-01 16:40:09 +0900
+
+
+Started GET "/assets/application-67ec727f1c420f5f730ed5e697b6b0ea.js?body=1" for ::1 at 2018-03-01 16:40:09 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:00:32 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ref=nav_logo" for ::1 at 2018-03-01 17:00:34 +0900
+
+ActionController::RoutingError (No route matches [GET] "/ref=nav_logo"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.1ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.1ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.6ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (127.5ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:00:46 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:09:31 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gp/prime/ref=nav_logo_prime_join" for ::1 at 2018-03-01 17:09:33 +0900
+
+ActionController::RoutingError (No route matches [GET] "/gp/prime/ref=nav_logo_prime_join"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.1ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.4ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/natsuki.irie/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (111.3ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:09:36 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:12:06 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:12:40 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:12:52 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:13:17 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:14:16 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-597613046aef1ae90d965883692f8ab7.css?body=1" for ::1 at 2018-03-01 17:14:16 +0900
+
+
+Started GET "/assets/application-c090d5e25cb43f08fdfac28c231c03c6.css?body=1" for ::1 at 2018-03-01 17:14:16 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:14:28 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-14e92748d9d8434b2aeaf5a3857d2511.css?body=1" for ::1 at 2018-03-01 17:14:28 +0900
+
+
+Started GET "/assets/application-106f967b9a00e9b9e10567086130f874.css?body=1" for ::1 at 2018-03-01 17:14:28 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:14:40 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-9e6125ff7cb08c595762453d45d9fee2.css?body=1" for ::1 at 2018-03-01 17:14:40 +0900
+
+
+Started GET "/assets/application-6c61ec71a63c6b6b41aa23c9bf6c595a.css?body=1" for ::1 at 2018-03-01 17:14:40 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:16:37 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:16:42 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:17:56 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-4e94a966df957ad8c0167371b74e14a0.css?body=1" for ::1 at 2018-03-01 17:17:56 +0900
+
+
+Started GET "/assets/application-65b4dabbe865266367d12af6e051a088.css?body=1" for ::1 at 2018-03-01 17:17:56 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:18:24 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-bd58cd31b94f4ac2e04274f0c03a2bcb.css?body=1" for ::1 at 2018-03-01 17:18:24 +0900
+
+
+Started GET "/assets/application-458345911bb9045df968029668abe07c.css?body=1" for ::1 at 2018-03-01 17:18:24 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:19:35 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-1475059f365550caa4099bfb9387dec6.css?body=1" for ::1 at 2018-03-01 17:19:35 +0900
+
+
+Started GET "/assets/application-b40bf93f88798db1a3905bfcdbb935a7.css?body=1" for ::1 at 2018-03-01 17:19:35 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:20:07 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-dd4e02f6244d67544ebaef38ff6d8d00.css?body=1" for ::1 at 2018-03-01 17:20:07 +0900
+
+
+Started GET "/assets/application-724a30088ec2bee56660bc9060146575.css?body=1" for ::1 at 2018-03-01 17:20:07 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:21:05 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-7be4d1207d06dc766a5ba1bc97b1b0c3.css?body=1" for ::1 at 2018-03-01 17:21:05 +0900
+
+
+Started GET "/assets/application-6c7de2ad5e2a8b12f69140a53106189a.css?body=1" for ::1 at 2018-03-01 17:21:05 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:27:38 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 119ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:27:56 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:31:18 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:32:14 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-f4270a2e6ed07ba6e345fdad2cdbe09b.css?body=1" for ::1 at 2018-03-01 17:32:14 +0900
+
+
+Started GET "/assets/application-d7ae5c493b3bd2ea12f538467be46883.css?body=1" for ::1 at 2018-03-01 17:32:14 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:32:52 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-3ebf8b52fd5926f488bd662bc9ef5514.css?body=1" for ::1 at 2018-03-01 17:32:52 +0900
+
+
+Started GET "/assets/application-83ef3f24d83d8ebeda48f4a27689f257.css?body=1" for ::1 at 2018-03-01 17:32:52 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:33:24 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 67ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-594246c3be22bac8bc158b9767d640fa.css?body=1" for ::1 at 2018-03-01 17:33:24 +0900
+
+
+Started GET "/assets/application-fb9ed6a06351b1a12b2b7889a9d6a2aa.css?body=1" for ::1 at 2018-03-01 17:33:24 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:35:23 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:36:08 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-759bdd10ce062075e5f8a0918083c196.css?body=1" for ::1 at 2018-03-01 17:36:09 +0900
+
+
+Started GET "/assets/application-7cad5c414d819e9063f296cb760b7c44.css?body=1" for ::1 at 2018-03-01 17:36:09 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:36:40 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-75c66dde1c69fc52ab89233977a00d93.css?body=1" for ::1 at 2018-03-01 17:36:40 +0900
+
+
+Started GET "/assets/application-fa03c964a669bd49b3cae5895b5659a1.css?body=1" for ::1 at 2018-03-01 17:36:40 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:38:03 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-58f3d8619fa319ee2685594ed8204611.css?body=1" for ::1 at 2018-03-01 17:38:03 +0900
+
+
+Started GET "/assets/application-73e056a109fccb155563913c44766c98.css?body=1" for ::1 at 2018-03-01 17:38:03 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:39:01 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-a7fc2010ff6c59c5c2d962c645ae8858.css?body=1" for ::1 at 2018-03-01 17:39:01 +0900
+
+
+Started GET "/assets/application-06b70dbd31bc9b705ee7952a0f02b737.css?body=1" for ::1 at 2018-03-01 17:39:01 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:41:41 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-c6b22fedbe703b37efee82251ddc20db.css?body=1" for ::1 at 2018-03-01 17:41:41 +0900
+
+
+Started GET "/assets/application-d2a7fc71637541fc0f69ad01adfab986.css?body=1" for ::1 at 2018-03-01 17:41:41 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:42:27 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-fb465c84a08918780af655eb02c05e3c.css?body=1" for ::1 at 2018-03-01 17:42:27 +0900
+
+
+Started GET "/assets/application-772f2406004976bf7dc72b36746994a7.css?body=1" for ::1 at 2018-03-01 17:42:27 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:43:47 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-2568d07099d6160a03c269b7edbde6fe.css?body=1" for ::1 at 2018-03-01 17:43:47 +0900
+
+
+Started GET "/assets/application-948434b1d7df1dfef7d7fbf5f41730cd.css?body=1" for ::1 at 2018-03-01 17:43:47 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:44:15 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-75509af484f177b7a7d368d5bca0bb9e.css?body=1" for ::1 at 2018-03-01 17:44:15 +0900
+
+
+Started GET "/assets/application-5d6067690e4207420d832329c1cbe531.css?body=1" for ::1 at 2018-03-01 17:44:15 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:44:43 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-7581f43b85e55d8920ed014b89996d67.css?body=1" for ::1 at 2018-03-01 17:44:43 +0900
+
+
+Started GET "/assets/application-fb1646c3ee1790a446101bb118fdcea2.css?body=1" for ::1 at 2018-03-01 17:44:43 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:45:23 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-ca000652e3e2eca88440e5f046b3eb01.css?body=1" for ::1 at 2018-03-01 17:45:23 +0900
+
+
+Started GET "/assets/application-f8b468ba7292a5b469ef0a356ed79945.css?body=1" for ::1 at 2018-03-01 17:45:23 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:47:26 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-3ad0269f6b8049b145b9304c03176f22.css?body=1" for ::1 at 2018-03-01 17:47:26 +0900
+
+
+Started GET "/assets/application-cbd02b888f7dacaf745fe7ad3539431c.css?body=1" for ::1 at 2018-03-01 17:47:26 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:47:51 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-01 17:48:17 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-fde6e4d9f01b5f4e34f003adb8f644ac.css?body=1" for ::1 at 2018-03-01 17:48:17 +0900
+
+
+Started GET "/assets/application-d23dbed445db0f65ff3fc8788c106cd3.css?body=1" for ::1 at 2018-03-01 17:48:17 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:48:32 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-12c805d696b894baed0aa383747307a9.css?body=1" for ::1 at 2018-03-01 17:48:32 +0900
+
+
+Started GET "/assets/application-b79dcd09d590ef26c556b8dc9880116a.css?body=1" for ::1 at 2018-03-01 17:48:32 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:48:47 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-d91a0f5ca9097a83b616bf742e8b1575.css?body=1" for ::1 at 2018-03-01 17:48:48 +0900
+
+
+Started GET "/assets/tops-33ecb7f20e3efce4b58230d89a724d88.css?body=1" for ::1 at 2018-03-01 17:48:48 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:50:05 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-a71c3f33d3d859ef5029761931562b63.css?body=1" for ::1 at 2018-03-01 17:50:06 +0900
+
+
+Started GET "/assets/application-8ea96c359066706508bd09ffcae538c9.css?body=1" for ::1 at 2018-03-01 17:50:06 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:50:24 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 68ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-a077c6eb4d0c182ea6d84dacbd57ab84.css?body=1" for ::1 at 2018-03-01 17:50:24 +0900
+
+
+Started GET "/assets/application-96a8f198775641420421b0adf711d369.css?body=1" for ::1 at 2018-03-01 17:50:24 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:51:12 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-5dae524dfe425617379783749b60b39e.css?body=1" for ::1 at 2018-03-01 17:51:12 +0900
+
+
+Started GET "/assets/application-312d6bfd3720f135e61378ed0585d5ef.css?body=1" for ::1 at 2018-03-01 17:51:12 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:52:03 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-ec72b78ae3aaad5e7d77d9dd5131daed.css?body=1" for ::1 at 2018-03-01 17:52:03 +0900
+
+
+Started GET "/assets/application-0cada592a7f2caa1d124423b220770d7.css?body=1" for ::1 at 2018-03-01 17:52:03 +0900
+
+
+Started GET "/" for ::1 at 2018-03-01 17:53:44 +0900
+Processing by TopsController#index as HTML
+  Rendered tops/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tops-1daad58803c84137ed95d2f045c9473e.css?body=1" for ::1 at 2018-03-01 17:53:44 +0900
+
+
+Started GET "/assets/application-28c4f6ba1e58a4bd881ccf8f83fd9f9a.css?body=1" for ::1 at 2018-03-01 17:53:44 +0900
