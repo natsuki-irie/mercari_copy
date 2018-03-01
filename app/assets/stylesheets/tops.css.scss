@@ -3,6 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+#navber {
+  // height: 400px;
+  // width: 100%;
+  color: white;
+}
+
+
 .search {
   width: 600px;
 }
@@ -10,6 +17,7 @@
 #nav-belt {
   float: left;
   width: 100%;
+  background-color: #232f3e;
 }
 
 .nav-left {
@@ -19,21 +27,31 @@
 
 .nav-center {
   float: left;
+  padding-left: 10px;
 }
 
 .nav-right {
   float: left;
+  padding-left: 40px;
 }
 
-
+// -----------------
 
 #nav-main {
   float: left;
+  background-color: #232f3e;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 0px;
 }
 
 .nav-main-left {
   float: left;
   padding-left: 40px;
+}
+
+.nav-main-left h4 {
+  margin: 0;
 }
 
 .nav-main-center {
@@ -56,3 +74,68 @@
   padding-right: 15px;
   font-size: 13px;
 }
+
+// -------------------
+
+.nav-main-right {
+  float: right;
+}
+
+.jp-icon {
+  float: left;
+  font-size: 12px;
+}
+
+.account-list {
+  float: left;
+  padding-left: 15px;
+  
+}
+
+.account-list h4 {
+  margin: 0;
+  font-size: 12px;
+}
+
+.account-list p {
+  margin: 0;
+}
+
+.order-list {
+  float: left;
+  padding-left: 15px;
+}
+
+.order-list p {
+  margin: 0;
+  padding-top: 18px;
+}
+
+.prime {
+  float: left;
+  padding-left: 15px;
+}
+
+.prime h4 {
+  margin: 0;
+  font-size: 12px;
+}
+
+.prime p {
+  margin: 0;
+}
+
+.cart-icon {
+  float: left;
+  padding-left: 15px;
+}
+
+.cart-icon p {
+  margin: 0;
+  padding-top: 18px;
+}
+
+
+
+
+
